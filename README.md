@@ -5,7 +5,9 @@ Typetalk API client for Deno🦕
 ## How to use
 
 ```typescript
-import { TypetalkClient } from "https://deno.land/x/typetalk_client/bot.ts";
+import { TypetalkClient } from "https://pax.deno.dev/ryuapp/typetalk_client/bot.ts";
+// or
+// import { TypetalkClient } from "https://raw.githubusercontent.com/ryuapp/typetalk_client/main/typetalk_client/bot.ts";
 
 const client = new TypetalkClient(
   Deno.env.get("TYPETALK_TOKEN"),
